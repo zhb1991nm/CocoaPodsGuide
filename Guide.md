@@ -126,11 +126,15 @@ CocoaPods是一个强大的工具，不仅可以将开放源代码添加到你�
 ###  脚注
  [^Ruby]: [Ruby](https://www.ruby-lang.org/zh_cn/) 是一门开源的动态编程语言，注重简洁和效率。Ruby 的句法优雅，读起来自然，写起来舒适。
 
+
  [^Gem]: [Gem](https://rubygems.org/) 是基于Ruby的一些开发工具包。由于国内网络原因（你懂的），导致 https://rubygems.org/ 存放在 Amazon S3 上面的资源文件间歇性连接失败。需要替换国内提供的Gem源同步镜像https://gems.ruby-china.org/(原先的淘宝源https://ruby.taobao.org貌似也已经停止维护了)。
 
-[^Podfile文件]: [Podfile文件](https://guides.cocoapods.org/using/the-podfile.html)是一种规范，他描述了一个或多个Xcode项目目标的依赖关系。
 
-[^Spec]:[Podspec/Spec](https://guides.cocoapods.org/making/specs-and-specs-repo.html)文件描述了一个Pod库的一个版本。一个Pod随着时间的推移会拥有多个Spec。它囊括了许多相关信息包括：源码应该从哪里获取、什么文件需要被使用、需要应用的构建配置以及其他通用数据，如它的名称、版本和描述。
+ [^Podfile文件]: [Podfile文件](https://guides.cocoapods.org/using/the-podfile.html)是一种规范，他描述了一个或多个Xcode项目目标的依赖关系。
 
-[^Spec Repo]:[Specs Repo](https://guides.cocoapods.org/making/specs-and-specs-repo.html)是GitHub上包含所有可用的Pod名单仓库。
+
+ [^Spec]:[Podspec/Spec](https://guides.cocoapods.org/making/specs-and-specs-repo.html)文件描述了一个Pod库的一个版本。一个Pod随着时间的推移会拥有多个Spec。它囊括了许多相关信息包括：源码应该从哪里获取、什么文件需要被使用、需要应用的构建配置以及其他通用数据，如它的名称、版本和描述。
+
+
+ [^Spec Repo]:[Specs Repo](https://guides.cocoapods.org/making/specs-and-specs-repo.html)是GitHub上包含所有可用的Pod名单仓库。
 
